@@ -1070,6 +1070,7 @@ button:hover span {
 
 /* ------ 置頂按鈕 ------ */
 #gotop {
+    display  : none;
     position : fixed;
     bottom   : 30px;
     right    : 40px;
@@ -1098,7 +1099,7 @@ button:hover span {
 
 /* ------ 分頁 News區 ------ */
 #news-page {
-    height: 500px;
+    height: 50vh;
 }
 
 #news-page .logo h1 {
@@ -1321,7 +1322,7 @@ aside p {
 
     article,
     aside {
-        width: 80%;
+        width: 100%;
     }
 
     #news-page .logo h1 {
@@ -1346,5 +1347,4 @@ aside p {
     #news-page .logo h1 {
         font-size: 2.3rem;
     }
-    
 }

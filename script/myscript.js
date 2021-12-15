@@ -26,7 +26,7 @@ $(function () {
 
     //淡出淡入
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 200) { //卷軸滾動超過200px的位置才會開始執行以下動作
+        if ($(this).scrollTop() > 100) { //卷軸滾動超過100px的位置才會開始執行以下動作
             $("#gotop").stop().fadeTo("fast", 0.7); //.stop是指意思有就好，不會完全執行完，0.7是半透明
         } else {
             $("#gotop").stop().fadeOut("fast");
