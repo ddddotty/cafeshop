@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-hant-tw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>CAFE SHOP</title>
+    <link rel="icon" href="images/cafe.ico">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- ress.css -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- google font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+    <!-- 自己的css一定要放在最下面，權重最重 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="home" class="big-bg">
+        <header class="page-header wrapper">
+            <div class="logo">
+                <h1><a href="index.html">CAFE SHOP</a></h1>
+            </div>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="slogan">
+                <h2>HAVE A NICE DAY !</h2>
+            </div>
+            <div class="span-arrow demo">
+                <a href="#about"><span></span>Scroll</a>
+            </div>
+        </header>
+    </div>
+    <main>
+        <!-- About -->
+        <section id="about" class="aboutbox">
+            <div class="about box" data-move-x="-500px">
+                <p>
+                    Starbuck was no crusader after perils;<br>
+                    in him courage was not a sentiment;<br>
+                    but a thing simply useful to him,<br>
+                    and always at hand upon all mortally practical occasions.<br>
+                    Besides, he thought, perhaps, that in this business of whaling,<br>
+                    courage was one of the great staple outfits of the ship,<br>
+                    like her beef and her bread, and not to be foolishly wasted.<br>
+                </p>
+            </div>
+            <figure class="box" data-move-y="500px">
+                <img src="images/about.jpg" alt="咖啡形象圖">
+            </figure>
+        </section>
+        <!-- Menu -->
+        <section id="menu" class="menubox box">
+            <h3>MENU</h3>
+            <div class="menubox-card">
+                <div class="card">
+                    <img src="images/menu-1.jpg" alt="飲品">
+                    <p>Drink<br>
+                        Price.60-150</p>
+                </div>
+                <div class="card">
+                    <img src="images/menu-2.jpg" alt="咖啡">
+                    <p>Coffee<br>
+                        Price.80-250</p>
+                </div>
+                <div class="card">
+                    <img src="images/menu-3.jpg" alt="小點心套餐">
+                    <p>Dessert Meal<br>
+                        Price.100-200</p>
+                </div>
+            </div>
+        </section>
+        <!-- Online -->
+        <div class="onlinebox-bg box">
+            <div class="onlinebox">
+                <h4>
+                    自家烘焙咖啡，另有販售咖啡豆、掛耳，請至賣場。 --------------------------------------------
+                </h4>
+            </div>
+            <div class="onlinebox-btn">
+                <a href="https://shopee.tw/takeawaycoffee" target="_blank">ONLINE SHOP</a>
+            </div>
+        </div>
+        <!-- News -->
+        <section id="news" class="newsbox box">
+            <figure>
+                <img src="images/news.jpg" alt="室內空間">
+            </figure>
+            <div class="newslist">
+                <div>
+                    <h3>NEWS</h3>
+                </div>
+                <ul>
+                    <li>
+                        <a href="news.html" target="_blank">2021.12.07<br>
+                            メインストア銀座 12月の営業時間について</a>
+                    </li>
+                    <li>
+                        <a href="news.html" target="_blank">2021.11.18<br>
+                            暮らしの香りをお届けします</a>
+                    </li>
+                </ul>
+                <div class="newslist-btn">
+                    <a href="news.html" target="_blank">More</a>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section id="contact" class="contactbox box">
+            <h1>CONTACT</h1>
+            <div class="bg_video">
+                <video src="images/pexels-pavel-danilyuk-6602256.mp4" loop autoplay muted></video>
+            </div>
+            <form id="contact_form" name="contact_form" method="post">
+                <label for="name">Name</label>
+                <input name="name" type="text" required="required" id="name">
+                <label for="tel">Tel</label>
+                <input name="tel" type="tel" required="required" id="tel">
+                <label for="email">Email</label>
+                <input name="email" type="email" required="required" id="email" size="40">
+                <label for="message">Message</label>
+                <textarea name="message" required="required" id="message" rows="15"></textarea>
+                <button>
+                    <span>Send</span>
+                </button>
+            </form>
+        </section>
+        <!-- Map -->
+        <section id="location" class="box">
+            <div class="mapbox">
+                <h3>CAFE SHOP</h3>
+                <p>地址：〒150-0001<br>
+                    東京都渋谷区神宮前５丁目１７-13<br>
+                    5 Chome-17-13 Jingumae, Shibuya City,<br>
+                    Tokyo 150-0001 Japan.<br>
+                    <br>
+                    電話：03-1111-1111<br>
+                    營業時間：10:00～20:00<br>
+                    公休日：星期三
+                </p>
+            </div>
+            <div class="location-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51852.63490821652!2d139.71552081320954!3d35.68218032955924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ca69a302d09%3A0xc787dabf29311eda!2sTHE%20ROASTERY%20by%20NOZY%20COFFEE!5e0!3m2!1szh-TW!2stw!4v1639226318984!5m2!1szh-TW!2stw"
+                    width="650" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer id="sns">
+        <div class="footerbox">
+            <div class="sns-box">
+                <h3 class="sub-title">Facebook</h3>
+                <iframe
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhappentomeet.design%2F&tabs=timeline&width=340&height=544&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+                    width="340" height="544" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+            <div class="sns-box">
+                <h3 class="sub-title">Youtube</h3>
+                <iframe width="560" height="544" src="https://www.youtube.com/embed/l-s0DiuODVk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="sns-box">
+                <h3 class="sub-title">instagram</h3>
+                <!-- SnapWidget -->
+                <iframe src="https://snapwidget.com/embed/976993" class="snapwidget-widget" allowtransparency="true"
+                    frameborder="0" scrolling="no"
+                    style="border:none; overflow:hidden;  width:335px; height:544px"></iframe>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><small>&copy;2021 Cafe Shop by Happen to Meet Studio</small></p>
+        </div>
+        <div id="gotop"><i class="fas fa-chevron-circle-up"></i></div>
+    </footer>
+    <!-- jQuery原生碼 CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Smoove js CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
+    <!-- 自己寫的js一定要放在最下面，因為要先執行前面的原始碼 -->
+    <script src="script/myscript.js"></script>
+</body>
+
+</html>
