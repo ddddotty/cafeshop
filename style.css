@@ -566,6 +566,7 @@ a {
         height    : 2rem;
         text-align: center;
         margin-top: 10px;
+        margin-left: -4px;
     }
 
     .onlinebox-bg {
