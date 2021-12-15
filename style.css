@@ -563,9 +563,9 @@ a {
     }
 
     .onlinebox-btn a {
-        height    : 2rem;
-        text-align: center;
-        margin-top: 10px;
+        height     : 2rem;
+        text-align : center;
+        margin-top : 10px;
         margin-left: -4px;
     }
 
@@ -824,12 +824,13 @@ textarea {
     .contactbox {
         height: 100vh;
     }
+
     textarea {
         width: 300px;
     }
 
-    #contact_form {
-        margin-top: -630px;
+    .bg_video video {
+        height    : 100vh;
     }
 }
 
@@ -1283,10 +1284,12 @@ aside p {
     #news-page .logo h1 {
         font-size: 1.8rem;
     }
+
     #news-page .slogan {
-        top      : 25%;
-        left     : 50%;
+        top : 25%;
+        left: 50%;
     }
+
     .news-contents {
         flex-direction: column;
     }
