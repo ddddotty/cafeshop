@@ -821,6 +821,9 @@ textarea {
 
 /* 手機版 */
 @media (max-width: 767px) {
+    .contactbox {
+        height: 100vh;
+    }
     textarea {
         width: 300px;
     }
@@ -1280,7 +1283,10 @@ aside p {
     #news-page .logo h1 {
         font-size: 1.8rem;
     }
-
+    #news-page .slogan {
+        top      : 25%;
+        left     : 50%;
+    }
     .news-contents {
         flex-direction: column;
     }
