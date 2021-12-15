@@ -6,7 +6,7 @@ $(function () {
     }
 
     //平板版
-    if ($(window).width() < 769) {
+    if ($(window).width() < 840) {
         $(".footerbox, .aboutbox figure, .newsbox figure, .ad").remove();
     }
 
