@@ -192,7 +192,7 @@ a {
 }
 
 .main-nav a:hover {
-    color: #834713;
+    color: #ff8113;
 }
 
 .page-header {
@@ -220,16 +220,16 @@ a {
 }
 
 .span-arrow {
-    background: url(https://picsum.photos/1200/800?image=869) center center / cover no-repeat;
+    margin-top: 20px;
 }
 
 .span-arrow a {
-    padding-top: 60px;
+    padding-top: 100px;
 }
 
 .span-arrow a span {
     position     : absolute;
-    top          : 0;
+    top          : 40%;
     left         : 50%;
     width        : 40px;
     height       : 40px;
@@ -310,7 +310,7 @@ a {
 
 .demo a {
     position         : absolute;
-    bottom           : 20px;
+    bottom           : 0;
     left             : 50%;
     z-index          : 2;
     display          : inline-block;
@@ -387,7 +387,7 @@ a {
     }
 
     .span-arrow {
-        top : 49%;
+        top : 50%;
         left: 49%;
     }
 }
@@ -664,11 +664,11 @@ a {
     display        : flex;
     justify-content: space-between;
     align-items    : center;
-    padding        : 0 24% 0 12%;
+    padding        : 15%;
 }
 
-.newsbox img {
-    width: 700px;
+.newsbox figure {
+    width: 60%;
 }
 
 .newsbox h3 {
@@ -782,11 +782,11 @@ a {
 
 #contact_form {
     position      : absolute;
-    margin-top    : -730px;
     display       : flex;
     flex-direction: column;
     width         : 35%;
     margin-left   : 13%;
+    margin-top    : -600px;
 }
 
 #contact_form label {
@@ -824,13 +824,20 @@ textarea {
     .contactbox {
         height: 100vh;
     }
-
+    .contactbox h1 {
+        font-size : 5rem;
+        left: 15px;
+        margin-top: -45px;
+    }
     textarea {
         width: 300px;
     }
 
     .bg_video video {
-        height    : 100vh;
+        height: 100vh;
+    }
+    #contact_form {
+        margin-top: -650px;
     }
 }
 
@@ -840,13 +847,19 @@ textarea {
         font-size : 6.2rem;
         margin-top: -54px;
     }
+    #contact_form {
+        margin-top: -800px;
+    }
 }
 
 /* 桌機 */
 @media (min-width: 992px) {
     .contactbox h1 {
         font-size : 11rem;
-        margin-top: -100px;
+        margin-top: -80px;
+    }
+    #contact_form {
+        margin-top    : -600px;
     }
 }
 
@@ -933,6 +946,7 @@ button:hover span {
 
 .mapbox {
     margin-right: 100px;
+    margin-top: 50px;
 }
 
 .mapbox h3 {
@@ -940,7 +954,6 @@ button:hover span {
     font-size    : 1.8rem;
     font-weight  : 300;
     color        : #834713;
-    margin-top   : 70px;
     border-bottom: 2px #834713 solid;
     padding      : 0 8px 8px;
 }
@@ -950,7 +963,6 @@ button:hover span {
     line-height   : 30px;
     letter-spacing: 1px;
     font-size     : 0.9rem;
-    margin-top    : 30px;
     color         : #231815;
     padding       : 12px 10px;
 }
@@ -961,18 +973,24 @@ button:hover span {
     .mapbox {
         margin-right: 0;
     }
+    #location {
+        height        : 120vh;
+        flex-direction: column;
+    }
+    .location-map iframe{
+        width: 100%;
+    }
 }
 
 /* 平板 */
 @media (min-width: 768px) {
     #location {
-        height        : 120vh;
+        height        : 100vh;
         flex-direction: column;
     }
 
     .mapbox h3 {
         font-size : 2.5rem;
-        margin-top: 0px;
     }
 
     .mapbox p {
@@ -990,7 +1008,6 @@ button:hover span {
 
     .mapbox h3 {
         font-size : 1.8rem;
-        margin-top: 70px;
     }
 
     .mapbox p {

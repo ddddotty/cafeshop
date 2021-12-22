@@ -2,7 +2,7 @@ $(function () {
 
     //手機版
     if ($(window).width() < 767) {
-        $(".footerbox, .location-map, .aboutbox figure, .newsbox figure, .contactbox h1, .ad").remove();
+        $(".footerbox, .aboutbox figure, .newsbox figure, .ad").remove();
     }
 
     //平板版
@@ -11,7 +11,7 @@ $(function () {
     }
 
     //連至項目錨點
-    $("nav a").click(function () {
+    $("nav a, .span-arrow a").click(function () {
         var btn = $(this).attr("href"); //返回取得屬性與值，「this」是指連結到那個錨點
         var pos = $(btn).offset(); //抓取相對的座標位置
         $("html,body").animate({ scrollTop: pos.top }, 1000); //變數pos(position縮寫)的top(y軸)停住錨點的位置，「1000」一秒到達位置
@@ -43,7 +43,7 @@ $(function () {
     //scroll
     $('a[href*=#]').on('click', function (e) {
         e.preventDefault();
-        $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 1000, 'linear');
+        $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 500, 'linear');
     });
 
 });
