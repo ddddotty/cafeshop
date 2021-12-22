@@ -825,9 +825,9 @@ textarea {
         height: 100vh;
     }
     .contactbox h1 {
-        font-size : 5rem;
-        left: 15px;
-        margin-top: -45px;
+        font-size : 4rem;
+        left: 20px;
+        margin-top: -38px;
     }
     textarea {
         width: 300px;
@@ -979,6 +979,7 @@ button:hover span {
     }
     .location-map iframe{
         width: 100%;
+        margin-top: 30px;
     }
 }
 
