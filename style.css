@@ -786,7 +786,6 @@ a {
     flex-direction: column;
     width         : 35%;
     margin-left   : 13%;
-    margin-top    : -600px;
 }
 
 #contact_form label {
@@ -859,7 +858,7 @@ textarea {
         margin-top: -80px;
     }
     #contact_form {
-        margin-top    : -600px;
+        margin-top    : -650px;
     }
 }
 
